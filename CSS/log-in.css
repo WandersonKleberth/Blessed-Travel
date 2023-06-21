@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pippins', sans-serif;
+}
+
+body {
+    background: url(../IMG/forest-dark-evening-sunset-last-light-minimalistic-5c-1440x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .title {
+    color: white;
+    padding-top: 13rem;
+    font-weight: 100;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    background: transparent;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+}
+
+/* Caixa de log in */
+
+/* TITULO */
+.log-logo {
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+    /* font-family: 'Pacifico', sans-serif;
+    font-weight: 100; */
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    border: 10px solid rgb(255, 255, 255 / 19%);
+    border-radius: 10px;
+    margin-top: 2rem;
+    gap: 15px;
+    backdrop-filter: blur(60px);
+    /* backdrop-filter: brightness(60%); */
+    background: rgb(255, 255, 255 / 10%);
+}
+
+/* imagem ao lado */
+.logo-img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Titulo input */
+.input-email {
+    display: flex;
+    gap: 20px;
+}
+
+.lemail {
+    font-weight: 100;
+    color: white;
+}
+
+#email{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    /* -webkit-box-shadow: 0 0 0px 1000px transparent inset; */
+}
+
+.input-senha {
+    display: flex;
+    gap: 20px;
+}
+
+.lpassword {
+    font-weight: 100;
+    color: white;
+    height: 16px;
+}
+
+#password{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+/* icones e inpt */
+.container {
+    width: 250px;
+    height: 16px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Icones do Iput */
+.fa-solid {
+    margin-bottom: 10px;
+}
+
+/* Caixa de Checagem */
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 100;
+    color: white;
+    gap: 10px;
+    padding: 30px;
+}
+
+/* Esqueci a senha */
+.forgot{
+    font-weight: 100;
+    color: yellow;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/* Botao */
+.login {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Registrar */
+.register-p {
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.register-a {
+    font-weight: 100;
+    color: yellow;
+    text-decoration: none;
+    margin-top: 10px;
+}

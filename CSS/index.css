@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pippins', sans-serif;
+}
+
+body {
+    background: url(../IMG/forest-dark-evening-sunset-last-light-minimalistic-5c-1440x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-main {
+
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    flex-wrap: wrap;
+    /* border: 10px solid rgb(255, 255, 255, / 19%); */
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    /* backdrop-filter: brightness(60%); */
+    background: rgb(255, 255, 255 / 10%);
+
+    box-shadow: 0px 10px 10px;
+}
+
+.container-nav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    /* backdrop-filter: blur(11px); */
+    backdrop-filter: brightness(60%);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 10px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    color: rgba(255, 255, 255, 0.20); 
+    /* backdrop-filter: blur(10px); */
+    backdrop-filter: brightness(40%);
+    background: rgb(255, 255, 255 / 10%);
+}
+
+.container-nav {
+    border-radius: 3px;
+    box-shadow: 0px 5px 0px 0px;
+}
+
+.logo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: yellow;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-self: center;
+    gap: 50px;
+    list-style: none;
+    /* margin-right: 150px; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+
+.space {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.log {
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
